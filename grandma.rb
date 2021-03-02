@@ -26,3 +26,5 @@ def speak_to_grandma(phrase)
     response_speak_up
   end
 end
+
+speak_to_grandma(phrase)
