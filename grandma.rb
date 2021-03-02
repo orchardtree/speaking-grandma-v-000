@@ -2,8 +2,11 @@
 def speak_to_grandma(phrase)
   response_love = "I LOVE YOU TOO PUMPKIN!"
   response_speak_up = "HUH?! SPEAK UP, SONNY!"
+  response_year = "NO, NOT SINCE 1938!"
   if phrase == phrase.upcase
     response_love
+    elsif phrase == phrase.upcase
+    
     else
     response_speak_up
   end
