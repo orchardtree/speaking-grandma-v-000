@@ -20,7 +20,6 @@ def speak_to_grandma(phrase)
       response_love
     else
       response_year
-      binding.pry
     end
   else
     response_speak_up
