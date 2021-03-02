@@ -4,7 +4,7 @@ def speak_to_grandma(phrase)
   response_speak_up = "HUH?! SPEAK UP, SONNY!"
   if phrase == "I LOVE YOU GRANDMA!"
     response_love
-    elsif phrase.upcase? == false 
+    elsif phrase == phrase.downcase
     response_speak_up
   end
     
