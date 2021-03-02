@@ -4,7 +4,7 @@ def speak_to_grandma(phrase)
   response_speak_up = "HUH?! SPEAK UP, SONNY!"
   response_year = "NO, NOT SINCE 1938!"
   if phrase == phrase.upcase
-    if phrase = "I LOVE YOU TOO PUMPKIN!"
+    if phrase == "I LOVE YOU TOO PUMPKIN!"
       response_love
     else
       response_year
